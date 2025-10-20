@@ -4,21 +4,10 @@ We are pleased to inform you that your request for access to the ARC Labs GPU wo
 
 Please find your login details and essential guidelines below.
 
----
-
-### Your Access Details
-
-* **User:** mluser
-* **IP Address:** 10.3.32.95
-* **Port:** 2222
-* **SSH Key Path:** C:\Users\<username>\.ssh\id_ed25519
-
-**Command to SSH into the Workstation:**
+Command to SSH into the Workstation:
 ssh -i C:\Users\<username>\.ssh\id_ed25519 -p 2222 mluser@10.3.32.95
 
 *Please replace <username> with your system username or update the key path as per your system's configuration.*
-
----
 
 Please be aware of the following strict policies regarding data and resource usage:
 
@@ -27,9 +16,7 @@ Please be aware of the following strict policies regarding data and resource usa
 * **Re-Request Access:** If you require access again after 5 days, you must raise a **new request** through the official forms.
 * **Consequence for Non-Compliance:** Failure to comply with these rules will result in you **not being allowed to use** the resources.
 
----
-
-### General Usage Policies
+General Usage Policies
 
 * **Data Backup:** Even with the 5-day persistence, we strongly recommend you **take a backup of all files** and ensure you push your code and data to external platforms like **GitHub** or **Hugging Face** *before* you end your session by running the `logout` command.
 * **Access Location:** You must be physically present on the **PES University campus** and connected to the **PES Wi-Fi** to use this SSH access.
@@ -37,9 +24,7 @@ Please be aware of the following strict policies regarding data and resource usa
 * **Software:** Workstations do not have any pre-installed libraries; you must manually install your necessary libraries. We recommend using Python virtual environments (`venv`).
 * **Misuse:** Any misuse of the GPUs or lab resources will result in **severe action**, including a **permanent ban** from ARC Labs facilities.
 
----
-
-### Support and Further Information
+Support and Further Information
 
 * **Interfaces:** You can use **CodeServer, Jupyter environments**, or the **SSH feature on your IDE** for coding.
 * **Need Support?** For any support, questions, or clarifications regarding access and infrastructure, please contact the ARC Labs Team on our Discord channel: **https://discord.gg/UP2RufR9Y9**.
