@@ -1,37 +1,26 @@
-Dear User,
+ARC Labs GPU Workstation Access Approved
 
-We are pleased to inform you that your request for access to the ARC Labs GPU workstation has been approved!
-
-Please find your login details and essential guidelines below.
-
-Command to SSH into the Workstation:
+SSH Command:
 ssh -i C:\Users\<username>\.ssh\id_ed25519 -p 2222 mluser@10.3.32.95
+*Replace <username> or update the key path.*
 
-*Please replace <username> with your system username or update the key path as per your system's configuration.*
+Strict Usage Policy (5-Day Limit)
+- Data Persistence: Guaranteed for 5 days only. All data is lost after this.
+- Workstation Blocking: Do not block the resource for more than 5 days.
+- Re-Access: Must raise a new request after 5 days.
+- Non-Compliance: Failure to follow rules results in a ban from resources.
 
-Please be aware of the following strict policies regarding data and resource usage:
+General Policies
+- Data Backup: STRONGLY recommend backing up all code/data to GitHub/Hugging Face before logging out.
+- Access Location: Must be on PES University campus and connected to PES Wi-Fi.
+- Timings: Monday to Friday, 8:30 AM to 4:00 PM.
+- Software: No pre-installed libraries. Use Python venv for installation.
+- Misuse: Any misuse will result in a permanent ban.
 
-* **Limited Data Persistence:** Data persistence is only guaranteed for a period of **5 days**. After 5 days, all your data will be lost.
-* **Workstation Blocking:** Do not block the workstation for a period of more than **5 days**.
-* **Re-Request Access:** If you require access again after 5 days, you must raise a **new request** through the official forms.
-* **Consequence for Non-Compliance:** Failure to comply with these rules will result in you **not being allowed to use** the resources.
+Support
+- Interfaces: Use CodeServer, Jupyter, or IDE SSH.
+- Support Discord: https://discord.gg/UP2RufR9Y9
 
-General Usage Policies
+Use these resources responsibly and adhere to the time-limited access policy.
 
-* **Data Backup:** Even with the 5-day persistence, we strongly recommend you **take a backup of all files** and ensure you push your code and data to external platforms like **GitHub** or **Hugging Face** *before* you end your session by running the `logout` command.
-* **Access Location:** You must be physically present on the **PES University campus** and connected to the **PES Wi-Fi** to use this SSH access.
-* **Access Timings:** GPU access is permitted **Monday to Friday, from 8:30 AM to 4:00 PM**.
-* **Software:** Workstations do not have any pre-installed libraries; you must manually install your necessary libraries. We recommend using Python virtual environments (`venv`).
-* **Misuse:** Any misuse of the GPUs or lab resources will result in **severe action**, including a **permanent ban** from ARC Labs facilities.
-
-Support and Further Information
-
-* **Interfaces:** You can use **CodeServer, Jupyter environments**, or the **SSH feature on your IDE** for coding.
-* **Need Support?** For any support, questions, or clarifications regarding access and infrastructure, please contact the ARC Labs Team on our Discord channel: **https://discord.gg/UP2RufR9Y9**.
-
-Please use these resources responsibly and adhere to the time-limited access policy.
-
-Regards,
-
-The ARC Labs Team
-CSE-AIML Department, PES University
+Regards, The ARC Labs Team
