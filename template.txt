@@ -1,7 +1,9 @@
 ARC Labs GPU Workstation Access Approved
 
+Drive Link (IMPORTANT REFERENCE) : https://drive.google.com/drive/u/1/folders/1QDZ-xsET7Y4CmRDpphkGwU9aBGftSd_v
+
 SSH Command:
-ssh -i C:\Users\<username>\.ssh\id_ed25519 -p 2222 mluser@10.3.32.95
+ssh -i C:\Users\<username>\.ssh\id_ed25519 -p 2222 mluser@10.3.32.90
 *Replace <username> or update the key path.*
 
 Strict Usage Policy (5-Day Limit)
