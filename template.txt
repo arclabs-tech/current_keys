@@ -6,10 +6,10 @@ SSH Command:
 ssh -i C:\Users\<username>\.ssh\id_ed25519 -p 2222 mluser@10.3.32.90
 *Replace <username> or update the key path.*
 
-Strict Usage Policy (5-Day Limit)
-- Data Persistence: Guaranteed for 5 days only. All data is lost after this.
-- Workstation Blocking: Do not block the resource for more than 5 days.
-- Re-Access: Must raise a new request after 5 days.
+Strict Usage Policy (3-Day Limit)
+- Data Persistence: Guaranteed for 3 days only. All data is lost after this.
+- Workstation Blocking: Do not block the resource for more than 3 days.
+- Re-Access: Must raise a new request after 3 days.
 - Non-Compliance: Failure to follow rules results in a ban from resources.
 
 General Policies
